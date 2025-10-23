@@ -100,7 +100,8 @@ fun VideoPlayerScreen() {
             playerView.player = controller
 
             // Configura un medio de ejemplo (reemplaza con tu propia URL)
-            val mediaItem = MediaItem.fromUri("https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3")
+            //val mediaItem = MediaItem.fromUri("https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3")
+            val mediaItem = MediaItem.fromUri("https://cdn.pixabay.com/download/audio/2025/10/02/audio_06ac57a05b.mp3")
             controller.setMediaItem(mediaItem)
             controller.prepare()
             controller.playWhenReady = true
